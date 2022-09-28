@@ -48,7 +48,7 @@ Security
 
 #### Usage
 
-The best way to use `thumbnail` class is to set it to a `div` with `img `HTML tags
+The best way to use `thumbnail` class is to set it to a `div` with `img` HTML tags
 
 For example:
 
