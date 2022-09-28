@@ -1,10 +1,7 @@
 # User CSS for Shaarli's default theme
 
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
-  <img alt="Licence Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png">
-</a>
-
-<img style="border:0;width:88px;height:31px;" src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS">
+[![Licence Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/">)
+![Valid CSS](https://jigsaw.w3.org/css-validator/images/vcss)
 
 Customize the [Shaarli](https://github.com/shaarli/Shaarli)'s default theme.
 
