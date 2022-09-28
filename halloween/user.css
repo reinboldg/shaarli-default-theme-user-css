@@ -1,0 +1,43 @@
+:root {
+  --main-color: #d53f00;
+  --background-color: #410a49;
+  --dark-main-color: #521c5a;
+}
+
+.page-form code,
+.pure-alert code {
+  background: none;
+}
+
+.linklist-filters,
+.linklist-pages,
+.linklist-pages a,
+.linkcount,
+.linksperpage,
+.page-error-container,
+.footer-container {
+  color: #fff;
+}
+
+.linklist-pages a:hover {
+  color: var(--main-color);
+}
+
+.footer-container::before {
+  background: linear-gradient(to right, var(--background-color), #fff, var(--main-color), #fff, var(--background-color));
+}
+
+.footer-container a {
+  color: var(--main-color);
+}
+
+.thumbnail img {
+  display: inline-block;
+  margin-bottom: 4px;
+  max-width: 170px !important;
+  max-height: 170px !important;
+}
+
+.markdown .thumbnail img {
+  vertical-align: top;
+}
