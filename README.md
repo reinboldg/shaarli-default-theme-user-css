@@ -23,6 +23,44 @@ For example:
 
     cp halloween/user.css /var/www/shaarli/data/
 
+## Extras
+
+### Thumbnail
+
+The `.thumbnail` CSS class allow to show the images in the description field as thumbnails.
+
+#### Prerequisites
+
+Formatter
+
+`formatter` must be `markdown` or `markdownExtra` in `data/config.json.php`
+
+    "formatter": "markdown"
+
+Security
+
+`markdown_escape` must be disabled in `data/config.json.php`
+
+    "security": {
+        "markdown_escape": false,
+        ...
+    }
+
+#### Usage
+
+The best way to use `thumbnail` class is to set it to a `div`
+
+For example:
+
+    Today is a beautiful day!
+    
+    <div class="thumbnail">
+      <img alt="A picture" src="https://example.com/a-picture.jpg">
+      <img alt="Another picture" src="https://example.com/another-picture.png">
+    </div>
+    
+    Sample text in markdown
+
 ## Themes
 
 Halloween
