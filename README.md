@@ -27,7 +27,7 @@ For example:
 
 ### Thumbnail
 
-The `.thumbnail` CSS class allow to show the images in the description field as thumbnails.
+The `thumbnail` CSS class allows to display the images of the description field as thumbnails.
 
 #### Prerequisites
 
@@ -44,11 +44,11 @@ Security
     "security": {
         "markdown_escape": false,
         ...
-    }
+    },
 
 #### Usage
 
-The best way to use `thumbnail` class is to set it to a `div`
+The best way to use `thumbnail` class is to set it to a `div` with `img `HTML tags
 
 For example:
 
