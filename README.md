@@ -1,6 +1,6 @@
 # User CSS for Shaarli's default theme
 
-[![Licence Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/">)
+[![Licence Creative Commons](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 ![Valid CSS](https://jigsaw.w3.org/css-validator/images/vcss)
 
 Customize the [Shaarli](https://github.com/shaarli/Shaarli)'s default theme.
