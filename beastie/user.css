@@ -1,0 +1,43 @@
+:root {
+  --main-color: #990000;
+  --background-color: #ececc8;
+  --dark-main-color: #660000;
+}
+
+.page-form code,
+.pure-alert code {
+  background: none;
+}
+
+.linklist-filters,
+.linklist-pages,
+.linklist-pages a,
+.linkcount,
+.linksperpage,
+.page-error-container,
+.footer-container {
+  color: var(--main-color);
+}
+
+.linklist-pages a:hover {
+  color: var(--main-color);
+}
+
+.footer-container::before {
+  background: linear-gradient(to right, var(--background-color), var(--main-color), var(--background-color));
+}
+
+.footer-container a {
+  color: var(--main-color);
+}
+
+.thumbnail img {
+  display: inline-block;
+  margin-bottom: 4px;
+  max-width: 170px !important;
+  max-height: 170px !important;
+}
+
+.markdown .thumbnail img {
+  vertical-align: top;
+}
