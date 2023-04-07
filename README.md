@@ -63,6 +63,10 @@ For example:
 
 ## Themes
 
+Beastie
+
+![](beastie/screenshot.jpg)
+
 Halloween
 
 ![](halloween/screenshot.jpg)
